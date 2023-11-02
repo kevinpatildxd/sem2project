@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow-x: hidden;
+}
+@media (min-device-width:769px) and (max-device-width:1024px){
+		
+}
+@media (min-width:769px) and (max-width:1024px){
+    
+}
+header {
+    background-color: white;
+    color: red;
+    padding: 20px;
+   
+    text-align: center;
+}
+footer {
+    position: relative;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    top: 2060px;
+}
+
+footer p {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    
+}
+nav ul li a:hover{
+    color: red;
+}
+nav ul li a:not(:hover){
+    color: black;
+}
+
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+.shoplogo {
+    position: relative;
+    display: flex;
+    width: 1536px;
+    top: 2px;
+  }
+  .img{
+    display: inline;
+    height: 52px;
+    
+  }
+ 
+  #wrap {
+    position:absolute;
+    
+    height: 2000px;
+    width:1309px;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-around;
+    top: 634px;
+    left: 160px;
+    background-color: white ;
+    left: 120px;
+    }
+    
+    .inner {
+        position:relative;
+    color:black;
+    background-color: white;
+    height:345px;
+    width: 18%;
+    }
+    .by{
+        color: #6e6b6a;
+    }
+    .mer{
+        color: red;
+    }
+    .dis{
+        position: relative;
+        left: 78px;
+        color: red;
+    }
+    .stri{
+        color: #6e6b6a;
+    }
+    .inner img{
+        display: flex;
+        height: 345px;
+        width: 280px;
+    }
+    #wrap1 {
+        position:absolute;
+        
+      
+        width:1309px;
+        display:flex;
+        flex-flow:row wrap;
+        justify-content:space-around;
+        top: 1050px;
+        left: 160px;
+        background-color: white ;
+        left: 120px;
+        }
+        #wrap2 {
+            position:absolute;
+            
+          
+            width:1309px;
+            display:flex;
+            flex-flow:row wrap;
+            justify-content:space-around;
+            top: 1466px;
+            left: 160px;
+            background-color: white ;
+            left: 120px;
+            }
+            #wrap3{
+                position:absolute;
+                
+              
+                width:1309px;
+                display:flex;
+                flex-flow:row wrap;
+                justify-content:space-around;
+                top: 1882px;
+                left: 160px;
+                background-color: white ;
+                left: 120px;
+                }
+                         
+  

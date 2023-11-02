@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: black;
+}
+@media (min-device-width:769px) and (max-device-width:1024px){
+		
+}
+@media (min-width:769px) and (max-width:1024px){
+    
+}
+header {
+    background-color: white;
+    color: red;
+    padding: 20px;
+    text-align: center;
+}
+footer {
+    position: relative;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    top: 2341px;
+}   
+
+footer p {
+    margin: 0;
+}
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li a:hover{
+    color: red;
+}
+nav ul li a:not(:hover){
+    color: black;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+.shoplogo {
+    position: relative;
+    display: flex;
+    width: 100%;
+    top: 2px;
+  }
+  .img{
+    display: inline;
+    height: 52px;
+    width: 100%;
+  }
+  .slide {
+    width: 100%;
+   
+    height: 360px;
+    position: absolute;
+    
+  }
+  #wrap {
+    position:absolute;
+    
+    height: 84%;
+    width:90%;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-around;
+    top: 705px;
+    /*  */
+    background-color: white ;
+    left: 120px;
+    }
+    
+    .inner {
+        position:relative;
+    color:black;
+    background-color: white;
+    height:345px;
+    width: 18%;
+    }
+    .by{
+        color: #6e6b6a;
+    }
+    .mer{
+        color: red;
+    }
+    .dis{
+        position: relative;
+        left: 78px;
+        color: red;
+    }
+    .stri{
+        color: #6e6b6a;
+    }
+    .inner img{
+        display: flex;
+        height: 345px;
+        width: 280px;
+    }
+    #wrap1 {
+        position:absolute;
+        
+        height: 84%;
+        width:90%;
+        display:flex;
+        flex-flow:row wrap;
+        justify-content:space-around;
+        top: 1123px;
+        left: 160px;
+        background-color: white ;
+        left: 120px;
+        }
+        #wrap2 {
+            position:absolute;
+            
+            height: 84%;
+            width:90%;
+            display:flex;
+            flex-flow:row wrap;
+            justify-content:space-around;
+            top: 1542px;
+            left: 160px;
+            background-color: white ;
+            left: 120px;
+            }
+            #wrap3{
+                position:absolute;
+                
+                height: 84%;
+                width:90%;
+                display:flex;
+                flex-flow:row wrap;
+                justify-content:space-around;
+                top: 1960px;
+                left: 160px;
+                background-color: white ;
+                left: 120px;
+                }
+                #wrap4{
+                    position:absolute;
+                    
+                    height: 84%;
+                    width:90%;
+                    display:flex;
+                    flex-flow:row wrap;
+                    justify-content:space-around;
+                    top: 2395px;
+                    left: 160px;
+                    background-color: white ;
+                    left: 120px;
+                    }
+                    .i{
+                        height: 360px;
+                        width: 100%;
+                    }
+                         
+ 
+ 

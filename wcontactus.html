@@ -1,0 +1,201 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Redwolf</title>
+  <style>
+    body{
+  height: 600px;
+   background: linear-gradient(62deg, yellow, rgb(201, 140, 201), #23A6D5, #23D5AB);
+     animation: gradient 15s ease infinite; 
+      background-size: 400% 400%;
+      overflow-y: hidden;
+  
+}
+@media (min-device-width:769px) and (max-device-width:1024px){
+		
+  }
+  @media (min-width:769px) and (max-width:1024px){
+    
+  }
+@-webkit-keyframes gradient{
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+     background-position: 0% 50%;
+  }
+}
+@keyframes gradient{
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+     background-position: 0% 50%;
+  }
+}
+ header {
+			
+			color: red;
+			padding: 20px;
+			text-align: center;
+            position: relative;
+		   
+            
+		}
+        
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+		nav ul li a:hover{
+			color: red;
+		}
+		nav ul li a:not(:hover){
+			color: black;
+		}
+		
+		nav li {
+			display: inline-block;
+			margin: 0 10px;
+		}
+		
+		nav a {
+			color: #fff;
+			text-decoration: none;
+		}
+        h1{
+            padding-bottom: 30px;
+            position: relative;
+            bottom: 20px;
+            
+        }
+        #h{
+            position: relative;
+            left: 25%;
+
+            
+        }
+        .container{
+            height: 500px;
+            border: 2px solid red;
+            padding: 10px;
+            border-radius: 25px;
+			width: 30%;
+			position: relative;
+			left: 85px;
+			min-width: 100px;
+            
+        }
+        .para{
+            position: relative;
+            bottom: 14px;
+        }
+        .container1{
+            height: 400px;
+            border: 2px solid red;
+            padding: 10px;
+            border-radius: 25px;
+			width: 55%;
+			position: relative;
+            bottom: 450px;
+            left: 610px;
+        }
+        #name{
+            height: 35px;
+            width: 70%;
+            position: relative;
+            left: 25px;
+        }
+        #mail{
+            height: 35px;
+            width: 70%;
+
+        }
+        .color{
+            color: red;
+        }
+        #box{
+            height: 214px;
+            width: 70%;
+            position: relative;
+            left: 50px;
+            min-width: 100px;
+        }
+        #sub{
+            position: relative;
+            left:-11px;
+            bottom: -147px;
+            color:white;
+            background-color: red;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer {
+			position: relative;
+		
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+			bottom: 415px;
+		}
+		
+		footer p {
+			margin: 0;
+		}
+</style>
+</head>
+<body>
+	<header>
+		<h1>Redwolf</h1>
+		<nav>
+			<ul>
+				<li><a href="webo.html">Home</a></li>
+				<li><a href="wproducts.html">Products</a></li>
+				<li><a href="wcontactus.html">Contact Us</a></li>
+				<li><a href="waboutus.html">About Us</a></li>
+        <li><a href="wlogin.html">Login</a></li>
+			</ul>
+		</nav>
+      <hr>
+</header>
+<div class="container">
+    <h1 id="h">CONTACT US</h1>
+    <span style="font-size:x-large;">
+      //  Welcome to Redwolf <br>
+    </span>
+    <p class="para">
+        Need to get in touch? The best way to contact us is over e-mail - we assure you that we are very prompt with our replies (unless it is a Sunday or a holiday - in that case, please have a heart, some patience and we’ll get back to you on the very next business day).
+
+        For any issues related to orders, addresses, payments and deliveries - please mail us at orders@redwolf.in.
+        
+        For any enquiries regarding social media collaborations, college festivals and sponsorships - please mail us at social@redwolf.in.
+        
+        For business and marketing enquiries only - please mail us at marketing@redwolf.in.
+        
+        You can also call us on +91-98927 29300 (Monday - Friday) between 10 AM and 5 PM for order related queries.
+        
+        We've addressed some commonly asked questions on our Delivery Information, Return Policy and FAQs pages.
+        
+        For just about any thing else (including bulk orders and kind comments) - please mail us at contact@redwolf.in and someone will get back to you for sure. You can also use this nifty little form below:
+    </p>
+</div>
+<div class="container1">
+    <label><span class="color">*</span>Your name</label> <input type="text" title="Enter name" id="name"><br><br>
+    <label><span class="color">*</span>E-mail Address</label><input type="text" title="E-mail" id="mail"><br><br>
+    <label><span class="color">*</span>Enquriy</label><input type="text" title="Enquriy" id="box">
+    <button id="sub">SUBMIT</button>
+</div>
+<footer>
+  <p>&copy; 2023 Redwolf clone. All rights reserved.</p>
+</footer>
+</body>
+</html>

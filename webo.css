@@ -1,0 +1,259 @@
+
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overflow-x: hidden;
+			height: 1070px;
+			
+		}
+		@media (min-device-width:769px) and (max-device-width:1024px){
+		
+		}
+		@media (min-width:769px) and (max-width:1024px){
+			
+		}
+		header {
+			background-color: white;
+			color: red;
+			padding: 20px;
+			text-align: center;
+		}
+		
+		h1 {
+			margin: 0;
+		}
+		.name{
+			
+			display: flex;
+			padding-left: 25%;
+			font-family: 'Times New Roman', Times, serif;
+			width: 60%;
+		}
+		
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			position: relative;
+			
+		}
+		nav ul li a:hover{
+			color: red;
+		}
+		nav ul li a:not(:hover){
+			color: black;
+		}
+		
+		nav li {
+			display: inline-block;
+			margin: 0 10px;
+		}
+		
+		nav a {
+			color: #fff;
+			text-decoration: none;
+		}
+		
+		
+		main {
+			padding: 20px;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			align-items: flex-start;
+		}
+		
+		section {
+			background-color: #eee;
+			border-radius: 5px;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+			flex-basis: calc(33.33% - 20px);
+			/* margin-bottom: 20px;
+			padding: 20px; */
+		}
+		
+		h2 {
+		
+			width: 100%;
+		}
+		
+		h3 {
+			margin-top: 0;
+		}
+		
+		img {
+			display: block;
+			margin: 0 auto;
+			
+			width: 100%;
+		}
+		
+	
+		
+		footer {
+			position: relative;
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+			top: 1186px;
+		}
+		
+		footer p {
+			margin: 0;
+		}
+      
+      
+      .img{
+        display: block;
+        width: 80%;
+        height: 51px;
+        
+           
+      }
+     
+     
+	body{
+ 
+		font-family:'Poppins';
+	  }
+	  
+	  .shoplogo {
+		position: relative;
+		display: flex;
+		width: 100%;
+		top: 2px;
+	  }
+	  .img{
+		display: inline;
+		height: 52px;
+		
+	  }
+	 
+	  
+	  
+	  .slider {
+		width: 100%;
+		
+		height: 360px;
+		position: relative;
+		overflow: hidden; /* <===  */
+		border-radius: 15px;
+	  }
+	  
+	  .slide {
+		width: 100%;
+	   
+		height: 360px;
+		position: absolute;
+		
+	  }
+	  
+	  .slide img {
+		width: 100%;
+		height: 100%;
+	
+		transition: all 1.0s;
+	  }
+	  
+	  .btn {
+		position: absolute;
+		width: 40px;
+		height: 40px;
+		padding: 10px;
+		border: none;
+		border-radius: 50%;
+		z-index: 10px;
+		cursor: pointer;
+		background-color: #fff;
+		font-size: 18px;
+	  }
+	  .btn:active {
+		transform: scale(1.1);
+	  }
+	  .btn-prev {
+		top: 45%;
+		left: 2%;
+	  }
+	  
+	  .btn-next {
+		top: 45%;
+		right: 2%;
+	  }
+	  .themes{
+		display: flex;
+		
+		height: 140px;
+		width: 100%;
+		padding-top: 10%;
+		
+		align-items: center;
+	    
+	  }
+	  .fethemes{
+		margin-top: 6%;	
+		padding-left: 42%;
+		font-size: xx-large;
+	  }
+	
+	  #fe{
+		font-size: xx-large	;
+		margin-top: 8%;
+		padding-left: 42%;
+		  }
+		  .product-grid {
+			display: grid;
+			grid-template-columns: repeat(4, 1fr); /* Adjust the number of columns as needed */
+			position: relative;
+			top: 231px;
+			max-height: 100%;
+		  }
+		  
+		  .product-card {
+			
+			padding: 20px;
+			text-align: center;
+		  }
+		  
+		  .product-card img {
+			width: 100%;
+			max-height: 350px;
+			object-fit: cover;
+		  }
+		  
+		  .product-card h3 {
+			margin-top: 10px;
+		  }
+		  
+		  .product-card p {
+			font-weight: bold;
+		  }
+		  
+		  .product-card button {
+			margin-top: 20px;
+			padding: 10px 20px;
+			background-color: #4caf50;
+			color: white;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+		  }
+		  .by{
+			color: #6e6b6a;
+		}
+		.mer{
+			color: red;
+		}
+		.dis{
+			position: relative;
+			left: 94px;
+			color: red;
+		}
+		.stri{
+			color: #6e6b6a;
+		}
+		.prize2s{
+			position: relative;
+			right: 94px;
+		}	 
